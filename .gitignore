@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Configuración real del testbed — NUNCA versionar
+backend/config/targets.yaml
+.env
+
+# Node / frontend
+node_modules/
+dist/
+
+# Sistema
+.DS_Store
